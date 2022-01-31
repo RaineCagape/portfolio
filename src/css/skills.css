@@ -1,0 +1,210 @@
+@keyframes col-two-animation {
+  0%   { left:-1000px; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { left:0px;  opacity: 1;}
+}
+
+.col-two-skills{
+  display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80% !important;
+    max-width: 80% !important;
+    background-color: #1b1b1b !important;
+    position: absolute;
+    margin-left: 20%;
+    height: 100% !important;
+    color: white;
+    z-index: 0;
+}
+
+.skills-content{
+   position: absolute;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 50px 0;
+    font-size: 30px;
+    animation-name: col-two-animation;
+    animation-duration: 1s;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.main-title{
+  font-size: 25px;
+  font-weight: 500;
+  color: #61dafb !important;
+}
+
+.first-set-skills{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    width: 50%;
+}
+
+
+.skill-title{
+  margin-bottom: 0 !important;
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.bars{
+  height: 30px !important;
+  width: auto !important;
+  margin: 0;
+  max-width: auto !important;
+  background-color: #808080 !important;
+}
+
+div .progress-bar{
+  padding: 10px !important;
+  font-weight: 500;
+}
+
+.detail-div{
+  width: 100% !important;
+  margin: 0 60% 5% 0;
+}
+
+.first .progress-bar{
+  background-color: #787CB5;
+  animation-name: first-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes first-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 70%;  opacity: 1;}
+}
+
+.second .progress-bar{
+  background: linear-gradient( 90deg, #e34f26 50%, #214ce5 50%);
+  animation-name: second-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes second-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 80%;  opacity: 1;}
+}
+
+.third .progress-bar{
+  background-color: #f7df1e;
+  animation-name: third-progress-animation;
+  animation-duration: 1.5s;
+  color: #1b1b1b;
+}
+
+@keyframes third-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 50%;  opacity: 1;}
+}
+
+.fourth .progress-bar{
+  background-color: #00d8ff;
+  animation-name: fourth-progress-animation;
+  animation-duration: 1.5s;
+  color: #1b1b1b;
+}
+
+@keyframes fourth-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 35%;  opacity: 1;}
+}
+
+.fifth .progress-bar{
+  background: linear-gradient( 90deg, #ffde57 50%, #4584b6 50%);
+  animation-name: fifth-progress-animation;
+  animation-duration: 1.5s;
+  color: #1b1b1b;
+}
+
+@keyframes fifth-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 20%;  opacity: 1;}
+}
+
+.second-set-skills{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    width: 50%;
+}
+
+.sixth .progress-bar{
+  background-color: #0087be;
+  animation-name: sixth-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes sixth-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 85%;  opacity: 1;}
+}
+
+.seventh .progress-bar{
+  background-color: #96588a;
+  animation-name: seventh-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes seventh-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 50%;  opacity: 1;}
+}
+
+.eight .progress-bar{
+  background-color: #323ed1;
+  animation-name: eight-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes eight-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 70%;  opacity: 1;}
+}
+
+.ninth .progress-bar{
+  background-color: #96bf48;
+  animation-name: ninth-progress-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes ninth-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 20%;  opacity: 1;}
+}
+
+.tenth .progress-bar{
+  background-color: #ffffff;
+  animation-name: tenth-progress-animation;
+  animation-duration: 1.5s;
+  color: #1b1b1b;
+}
+
+@keyframes tenth-progress-animation {
+  0%   { width:0; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { width: 80%;  opacity: 1;}
+}

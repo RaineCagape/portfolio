@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a:active{
+  text-decoration: none !important;
+  color: #1b1b1b !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #1b1b1b !important;
+}
+
+.col-one-mobile,.nav-list-mob, .col-two-works-mob, .container-mob, .col-two-info-mob, .col-two-skills-mob{
+  display: none;
+}
+
+@keyframes col-two-animation {
+  0%   { left:-1000px; opacity: 0; }
+  50%   { opacity: 0.50; }
+  100% { left:0px;  opacity: 1;}
+}
+  
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: #1b1b1b !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+  }
+
+.nav-list-mob, .nav-hide, .col-two-intro-mob{
+  display: none;
+  background-color: white;
+}
+
+  
+  .col-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 20% !important;
+    width: 20% !important;
+    background-color: #ffffff !important;
+    position: fixed;
+    max-height: 100% !important;
+    height: 100% !important;
+    z-index: 10;
+    animation-name: col-one-animation;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes col-one-animation {
+    0%   { top:-200px; opacity: 0; }
+    100% { top:0px;  opacity: 1;}
+  }
+  
+  .image{
+    image-rendering: crisp-edges;
+    /* image-rendering: pixelated; */
+  }
+  
+  .image-container{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list{
+    margin-top: 70px; 
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .svg-inline--fa{
+    font-size: 25px;
+    color: #1b1b1b;
+    margin: 0 10px;
+  }
+  
+  .fa-caret-right{
+    margin: -10px 5px;
+    padding: 0;
+  }
+  
+  .arrow{
+    display: none;
+  }
+  
+  p .list{
+    height: 0;
+    margin: 0;
+  }
+  
+  a {
+    color: #1b1b1b;
+    text-decoration: none;
+  }
+  
+
+  .list {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: 500 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p.list:hover .fa-caret-right{
+    display: inline-block !important;
+  }
+
+  p.list:active .arrow{
+    display: inline-block !important;
+  }
+  
+  .brand-icon {
+   padding-top: 30px;
+  }
+  
+  .social-bar{
+    margin: 30px 20px 0;
+  }
+  
+  .linkedin:hover{
+    color:#0a66c2;
+  }
+  
+  .github:hover{
+    color:#6e5494;
+  }
+  
+  .highlight{
+    color:#61dafb !important;
+  }
+
+  button{
+    color: none;
+    border-style: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
