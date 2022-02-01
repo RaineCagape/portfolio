@@ -20,19 +20,6 @@ import Works from'./components/works';
 export default function CustomLinkExample() {
 
   const [visible, setVisible] = useState(false);
-  const NavMob = () => (
-  
-    <div className='nav-list-mob'> 
-                   <p className="list" href='https://rainecagape.github.io/portfolio' ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button  onClick={() => setVisible(!visible)}>{visible}Intro</button></p>
-                   <p className="list" href='https://rainecagape.github.io/portfolio/#/info'><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button onClick={() => setVisible(!visible)}>{visible}About</button></p>
-                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/skills' onClick={() => setVisible(!visible)}>{visible}Skills</button></p>
-                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/works' onClick={() => setVisible(!visible)}>{visible}Works</button></p>
-                   <div className="social-bar-mob">
-                    <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
-                    <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
-                  </div>
-            </div>
-  )
   
   return (
     <Router>
@@ -80,6 +67,30 @@ export default function CustomLinkExample() {
     </Router>
   );
 }
+
+const NavMob = () => (
+  
+  <div className='nav-list-mob'> 
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio' target="_self" rel="opener">Intro</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' target="_self" rel="opener">About</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills' target="_self" rel="opener">Skills</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/works' target="_self" >Works</a></p>
+                 <div className="social-bar-mob">
+                  <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
+                  <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
+                </div>
+          </div>
+)
+
+const targetDiv = document.getElementById("nav-list-mob");
+const link = document.getElementById("navlink-mob");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+  } else {
+    targetDiv.style.display = "flex";
+  }
+};
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
   let match = useRouteMatch({
