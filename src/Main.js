@@ -22,6 +22,11 @@ export default function CustomLinkExample() {
 
   const [visible, setVisible] = useState(false);
   
+      $("#navlink-mob").click(function(){
+        $("#nav").hide();
+      });
+
+
   return (
     <Router>
       <div className='container container-mob'>
@@ -45,8 +50,7 @@ export default function CustomLinkExample() {
                 <div className='bars-container'><button className="button" onClick={() => setVisible(!visible)}>{visible} <FontAwesomeIcon className="bars-icon" id="bars" icon={faBars} /></button></div>
                 <div className='logo-container'> <img className='image-mob' href="https://rainecagape.github.io/portfolio" src={img} alt="Logo"/></div>
           </div>
-              
-          </div>
+        </div>
 
           
             <Switch>
@@ -72,10 +76,11 @@ export default function CustomLinkExample() {
 const NavMob = () => (
   
   <div className='nav-list-mob' id="nav"> 
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio' >Intro</button></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' >About</button></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills'>Skills</button></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/works' >Works</button></p>
+                 /* <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio' >Intro</button></p> */
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" onclick="location.href='https://rainecagape.github.io/portfolio/#/skills'" >Intro</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' >About</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills'>Skills</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/works' >Works</a></p>
                  <div className="social-bar-mob">
                   <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
                   <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
@@ -83,11 +88,18 @@ const NavMob = () => (
           </div>
 )
 
-$(document).ready(function(){
-  $("#navlink-mob").click(function(){
-    $("#nav").hide();
-  });
-});
+// $(document).ready(function(){
+//   $("#navlink-mob").click(function(){
+//     $("#nav").hide();
+//   });
+// });
+
+// $(function() {
+//   $("#navlink-mob").click(function(){
+//     $("#nav").hide();
+//   });
+// });
+
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
   let match = useRouteMatch({
