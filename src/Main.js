@@ -83,7 +83,7 @@ const NavMob = () => (
 )
 
 const infoPage = ()=>{
-  Window.open('https://rainecagape.github.io/portfolio/#/info','_top')
+  window.open('https://rainecagape.github.io/portfolio/#/info','_top')
 }
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
