@@ -22,9 +22,9 @@ export default function CustomLinkExample() {
 
   const [visible, setVisible] = useState(false);
   
-      $("#navlink-mob").click(function(){
-        $("#nav").hide();
-      });
+      // $("#navlink-mob").click(function(){
+      //   $("#nav").hide();
+      // });
 
 
   return (
