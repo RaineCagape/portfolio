@@ -23,8 +23,8 @@ export default function CustomLinkExample() {
   const NavMob = () => (
   
     <div className='nav-list-mob'> 
-                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio' onClick={() => setVisible(!visible)}>{visible}Intro</button></p>
-                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/info' onClick={() => setVisible(!visible)}>{visible}About</button></p>
+                   <p className="list" href='https://rainecagape.github.io/portfolio' ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button  onClick={() => setVisible(!visible)}>{visible}Intro</button></p>
+                   <p className="list" href='https://rainecagape.github.io/portfolio/#/info'><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button onClick={() => setVisible(!visible)}>{visible}About</button></p>
                    <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/skills' onClick={() => setVisible(!visible)}>{visible}Skills</button></p>
                    <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/works' onClick={() => setVisible(!visible)}>{visible}Works</button></p>
                    <div className="social-bar-mob">
