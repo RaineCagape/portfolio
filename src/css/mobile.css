@@ -230,7 +230,7 @@
           animation-duration: 1s;
         position: absolute;
         margin: 0%;
-        height:150%;
+        height:auto;
         color: white;
         z-index: 0;
         top: 0;
@@ -256,13 +256,11 @@
           position: absolute;
           min-height: 100%;
           text-align: left;
-          padding: 0 50px 0;
+          padding: 40% 20px 30%;
           font-size: 50px;
           font-weight: 400;
           animation-name: col-two-animation;
           animation-duration: 1s;
-          margin: 150px 0;
-          padding-top: 50% 10% !important;
           z-index: 0;
         }
         
