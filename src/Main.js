@@ -83,7 +83,7 @@ const NavMob = () => (
 )
 
 const infoPage = ()=>{
-  location.replace("https://rainecagape.github.io/portfolio/#/info");
+  window.location.replace("https://rainecagape.github.io/portfolio/#/info");
 }
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
