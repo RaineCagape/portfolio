@@ -93,10 +93,10 @@ const NavMob = () => (
 //   }
 // };
 
-document.getElementById('navlink-mob').addEventListener('click',function(){
-  document.getElementById('nav').style.display = 'none';
+$('#navlink-mob a').click(function(e){
+  $('#nav').each(function(){
+    $(this).hide();});
 });
-
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
   let match = useRouteMatch({
