@@ -72,10 +72,10 @@ export default function CustomLinkExample() {
 const NavMob = () => (
   
   <div className='nav-list-mob' id="nav"> 
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio' >Intro</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' >About</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills'>Skills</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/works' >Works</a></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio' >Intro</button></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' >About</button></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills'>Skills</button></p>
+                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/works' >Works</button></p>
                  <div className="social-bar-mob">
                   <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
                   <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
