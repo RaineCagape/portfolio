@@ -83,19 +83,10 @@ const NavMob = () => (
           </div>
 )
 
-// const targetDiv = document.getElementById("nav-list-mob");
-// const link = document.getElementById("navlink-mob");
-// link.onclick = function () {
-//   if (targetDiv.style.display !== "none") {
-//     targetDiv.style.display = "none";
-//   } else {
-//     targetDiv.style.display = "flex";
-//   }
-// };
-
-$('#navlink-mob a').click(function(e){
-  $('#nav').each(function(){
-    $(this).hide();});
+$(document).ready(function(){
+  $("#navlink-mob").click(function(){
+    $("#nav").hide();
+  });
 });
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
