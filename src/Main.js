@@ -20,6 +20,19 @@ import Works from'./components/works';
 export default function CustomLinkExample() {
 
   const [visible, setVisible] = useState(false);
+  const NavMob = () => (
+  
+    <div className='nav-list-mob'> 
+                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio' onClick={() => setVisible(!visible)}>{visible}Intro</button></p>
+                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/info' onClick={() => setVisible(!visible)}>{visible}About</button></p>
+                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/skills' onClick={() => setVisible(!visible)}>{visible}Skills</button></p>
+                   <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><button href='https://rainecagape.github.io/portfolio/#/works' onClick={() => setVisible(!visible)}>{visible}Works</button></p>
+                   <div className="social-bar-mob">
+                    <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
+                    <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
+                  </div>
+            </div>
+  )
   
   return (
     <Router>
@@ -66,24 +79,6 @@ export default function CustomLinkExample() {
       {visible && <NavMob/>}
     </Router>
   );
-}
-
-const NavMob = () => (
-  
-  <div className='nav-list-mob'> 
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a href='https://rainecagape.github.io/portfolio' target="_self" rel="opener">Intro</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a href='https://rainecagape.github.io/portfolio/#/info' target="_self" rel="opener">About</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a href='https://rainecagape.github.io/portfolio/#/skills' target="_self" rel="opener">Skills</a></p>
-                 <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a onClick={infoPage}  target="_self">Works</a></p>
-                 <div className="social-bar-mob">
-                  <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
-                  <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
-                </div>
-          </div>
-)
-
-const infoPage = ()=>{
-  window.open('https://rainecagape.github.io/portfolio/#/info','_top')
 }
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
