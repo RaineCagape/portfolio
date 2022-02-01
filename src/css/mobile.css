@@ -68,6 +68,12 @@
         height: 100% !important;
     }
 
+    .navlink-mob{
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+    }
+
     .x-icon{
         display: flex;
         color: #1b1b1b !important;
