@@ -84,7 +84,7 @@ const NavMob = () => (
 
 const targetDiv = document.getElementById("nav-list-mob");
 const link = document.getElementById("navlink-mob");
-btn.onclick = function () {
+link.onclick = function () {
   if (targetDiv.style.display !== "none") {
     targetDiv.style.display = "none";
   } else {
