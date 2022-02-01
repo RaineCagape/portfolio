@@ -71,7 +71,7 @@ export default function CustomLinkExample() {
 
 const NavMob = () => (
   
-  <div className='nav-list-mob'> 
+  <div className='nav-list-mob' id="nav"> 
                  <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio' >Intro</a></p>
                  <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/info' >About</a></p>
                  <p className="list" ><FontAwesomeIcon className="arrow" icon={faCaretRight} /><a id="navlink-mob" href='https://rainecagape.github.io/portfolio/#/skills'>Skills</a></p>
@@ -93,11 +93,10 @@ const NavMob = () => (
 //   }
 // };
 
-$('#navlink-mob').on('click', function(){
-
-  $('nav-list-mob').toggle();
-
+document.getElementById('navlink-mob').addEventListener('click',function(){
+  document.getElementById('nav').style.display = 'none';
 });
+
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
   let match = useRouteMatch({
