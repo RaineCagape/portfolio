@@ -10,13 +10,12 @@ import {
 } from 'react-router-dom';
 import img from './img/Recmark.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faTimes, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons';
+import { faBars, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import Intro from'./components/intro';
 import Info from'./components/info';
 import Skills from'./components/skills';
 import Works from'./components/works';
-import $ from 'jquery';
 
 export default function CustomLinkExample() {
 
@@ -33,6 +32,7 @@ export default function CustomLinkExample() {
                   <div className="social-bar-mob">
                     <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
                     <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
+                    <a href="https://www.behance.net/rainestuffs" target="_blank"><FontAwesomeIcon className="behance" icon={faBehance} /></a>
                   </div>
             </div>
   )
@@ -52,6 +52,7 @@ export default function CustomLinkExample() {
                <div className="social-bar">
                 <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedin}/></a>
                 <a href="https://github.com/RaineCagape" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
+                <a href="https://www.behance.net/rainestuffs" target="_blank"><FontAwesomeIcon className="behance" icon={faBehance} /></a>
                </div>
               </div>
           </div>
