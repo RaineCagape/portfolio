@@ -18,6 +18,11 @@
       color: white;
       z-index: 0;
       top:0;
+      margin-bottom: 30px !important;
+  }
+
+  .col-two-works-mob{
+    height: 1000px !important;
   }
 
   .works-content{
@@ -61,7 +66,11 @@ a.works.works.highlight:hover{
 }
 
 .first-set, .second-set {
-  margin: 0 5% ;
+  margin: 10% 5% ;
+}
+
+.work{
+  margin: 10%;
 }
 
 .web-img:hover {
