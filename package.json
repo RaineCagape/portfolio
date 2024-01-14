@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://rainecagape.github.io/portfolio",
   "main": "index.js",
+  "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
