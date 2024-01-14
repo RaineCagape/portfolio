@@ -16,7 +16,7 @@ class Intro extends Component {
       <div className="col-two-intro">
         <div className="intro-content" id="intro">
           <p>Howdy!</p>
-          <p>I'm <a className="highlight" >Raine Cagape</a> and I'm a Web Developer. </p>
+          <p>I'm <a className="highlight" >Raine Cagape</a> and I'm a Web Developer. TEST</p>
         </div>  
       </div>  
       <div className="col-two-intro-mob">
