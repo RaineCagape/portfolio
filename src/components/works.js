@@ -31,7 +31,7 @@ class Works extends Component {
                    <a  href="https://intermed-usa.com/" target="_blank">
                     <img className='web-img lps' src={ius} />
                   </a>
-                  <a className="works highlight" href="https://intermed-usa.com/" target="_blank">Intermed Test</a>
+                  <a className="works highlight" href="https://intermed-usa.com/" target="_blank">Intermed</a>
                 </div>
               </div>
               <div className='second-set'>
