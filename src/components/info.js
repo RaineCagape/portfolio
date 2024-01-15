@@ -29,6 +29,12 @@ class Info extends Component {
               <div className='sub-div'>
                 <div className='details-div'>
                   <a className="info highlight">Experience:</a>
+                  
+                  <div className='details-div'>
+                    <p className='info-desc'><b className='detail-title'>IPass Processing </b><br/><i>Web Developer </i>• Feb 2022 - Present  </p>
+                    <br/> 
+                  </div>
+                  
                   <div className='details-div'>
                     <p className='info-desc'><b className='detail-title'>Carve Business Management Service</b><br/><i>Junior Web Developer I </i>• Jan 2022 - Jan 2021  </p>
                     <br/> 
