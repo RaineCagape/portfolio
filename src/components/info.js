@@ -62,10 +62,13 @@ class Info extends Component {
               </div>
             </div>
             <div className='second-sec-mob'>
-            {/* <img className='image-info-mob'  src={img1} style={{width: 200, height: 200, borderRadius: 200/ 2}} /> */}
               <div className='sub-div-mob'>
                 <div className='details-div-mob'>
                   <a className="info-mob highlight-mob">Experience:</a>
+                  <div className='details-div-mob'>
+                    <p className='info-desc-mob'><b className='detail-title-mob'>IPass Processing </b><br/><i>Web Developer </i>• Feb 2022 - Present  </p>
+                    <br/> 
+                  </div>
                   <div className='details-div-mob'>
                     <p className='info-desc-mob'><b className='detail-title-mob'>Carve Business Management Service</b><br/><i>Junior Web Developer I </i>• Jan 2022 - Jan 2021  </p>
                     <br/> 
