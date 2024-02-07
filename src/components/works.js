@@ -3,7 +3,7 @@ import '../css/works.css';
 import React, { Component }  from 'react';
 import lps from '../img/lpscannr.png'; 
 import ius from '../img/intermed.png'; 
-import slp from '../img/lp.png'; 
+import slp from '../img/project-d.png'; 
 import wh from '../img/westpointeheights.png'; 
 
 
@@ -35,12 +35,12 @@ class Works extends Component {
                 </div>
               </div>
               <div className='second-set'>
-                {/* <div className='work'>
-                  <a href="https://rainelandpage.x10.mx/" target="_blank">
+                <div className='work'>
+                  <a href="https://prujekuto-d.vercel.app/" target="_blank">
                     <img className='web-img lp' src={slp} />
                   </a>
-                  <a className="works highlight" href="https://rainelandpage.x10.mx/" target="_blank" >Sample Wordpress Site Installation</a>
-                </div> */}
+                  <a className="works highlight" href="https://prujekuto-d.vercel.app/" target="_blank" >Project D (WIP)</a>
+                </div>
                 <div className='work'>
                    <a  href="https://westpointeheights.com/" target="_blank">
                     <img className='web-img lps' src={wh} />
@@ -67,12 +67,12 @@ class Works extends Component {
                </div>
              </div>
              <div className="second-set-mob">
-               {/* <div className='work'>
-                 <a href="https://rainelandpage.x10.mx/" target="_blank">
+               <div className='work'>
+                 <a href="https://prujekuto-d.vercel.app/" target="_blank">
                    <img className='web-img lp' src={slp} />
                  </a>
-                 <a className="works highlight" href="https://rainelandpage.x10.mx/" target="_blank" >Sample Wordpress Site Installation</a>
-               </div> */}
+                 <a className="works highlight" href="https://prujekuto-d.vercel.app/" target="_blank" >Project D (WIP)</a>
+               </div>
                <div className='work'>
                   <a  href="https://westpointeheights.com/" target="_blank">
                    <img className='web-img lps' src={wh} />

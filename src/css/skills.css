@@ -14,7 +14,7 @@
     background-color: #1b1b1b !important;
     position: absolute;
     margin-left: 20%;
-    height: 100% !important;
+    height: 150% !important;
     color: white;
     z-index: 0;
 }
@@ -120,6 +120,26 @@ div .progress-bar{
   animation-duration: 1.5s;
   color: #1b1b1b;
 }
+
+.rjs .progress-bar{
+  background-color: #00d8ff;
+  animation-name: fourth-progress-animation;
+  animation-duration: 1.5s;
+  color: #1b1b1b;
+}
+.njs .progress-bar{
+  background-color: #2f2f2f;
+  animation-name: fourth-progress-animation;
+  animation-duration: 1.5s;
+  color: #ffffff;
+}
+.bs .progress-bar{
+  background-color: #6610f2;
+  animation-name: fourth-progress-animation;
+  animation-duration: 1.5s;
+  color: #ffffff;
+}
+
 
 @keyframes fourth-progress-animation {
   0%   { width:0; opacity: 0; }

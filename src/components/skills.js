@@ -29,7 +29,7 @@ class Skills extends Component {
               </div>
               <div className='detail-div'>
                 <b className='skill-title'>JavaScript</b>
-                <ProgressBar className="bars third"  now={50} label={`50%`}/>
+                <ProgressBar className="bars third"  now={60} label={`60%`}/>
               </div>
               <div className='detail-div'>
                 <b className='skill-title'>React JS</b>
@@ -38,6 +38,20 @@ class Skills extends Component {
               <div className='detail-div'>
                 <b className='skill-title'>Python</b>
                 <ProgressBar className="bars fifth" now={20} label={`20%`}/>
+              </div>
+              &nbsp;
+              <p className='main-title'>Frameworks: </p>
+              <div className='detail-div'>
+                <b className='skill-title'>React JS</b>
+                <ProgressBar className="bars rjs" now={35} label={`35%`}/>
+              </div>
+              <div className='detail-div'>
+                <b className='skill-title'>Next JS</b>
+                <ProgressBar className="bars njs" now={15} label={`15%`}/>
+              </div>
+              <div className='detail-div'>
+                <b className='skill-title'>Bootstrap</b>
+                <ProgressBar className="bars bs" now={55} label={`55%`}/>
               </div>
             </div>
             <div className='second-set-skills'>
@@ -79,15 +93,24 @@ class Skills extends Component {
               </div>
               <div className='detail-div-mob'>
                 <b className='skill-title-mob'>JavaScript</b>
-                <ProgressBar className="bars third"  now={50} label={`50%`}/>
-              </div>
-              <div className='detail-div-mob'>
-                <b className='skill-title-mob'>React JS</b>
-                <ProgressBar className="bars fourth" now={35} label={`35%`}/>
+                <ProgressBar className="bars third"  now={60} label={`60%`}/>
               </div>
               <div className='detail-div-mob'>
                 <b className='skill-title-mob'>Python</b>
                 <ProgressBar className="bars fifth" now={20} label={`20%`}/>
+              </div>
+              <p className='main-title-mob'>Frameworks: </p>
+              <div className='detail-div-mob'>
+                <b className='skill-title-mob'>React JS</b>
+                <ProgressBar className="bars rjs" now={35} label={`35%`}/>
+              </div>
+              <div className='detail-div-mob'>
+                <b className='skill-title-mob'>Next JS</b>
+                <ProgressBar className="bars njs" now={15} label={`15%`}/>
+              </div>
+              <div className='detail-div-mob'>
+                <b className='skill-title-mob'>Bootstrap</b>
+                <ProgressBar className="bars bs" now={55} label={`55%`}/>
               </div>
             </div>
             <div className='second-set-skills-mob'>
