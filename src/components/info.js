@@ -1,92 +1,63 @@
 import '../css/Main.css';
-import '../css/info.css';
 import img from '../img/rec.jpg';
-import img1 from '../img/black.png';  
-import React, { Component }  from 'react';
+import React, {Component }  from 'react';
+import * as Reactbootstrap from 'react-bootstrap';
 
 class Info extends Component {
+
   constructor() {
     super();
     this.state = {
       name: "React"
-    };
+      };
+    this.isMobile = window.innerWidth <= 767 ? true : false;
   }
-  
+
   render() {
     return  ( 
-      <div>
-        <div className="col-two-info">
-          <div className="info-content" id="info">
-            <div className='first-sec'>
-              <img className='image' src={img} alt="Logo" style={{width: 200, height: 200, borderRadius: 200/ 2}} />
-              <div className='sub-div'>
-                <p className='title'>Reyna Elaine G. Cagape</p>
-                <p className='info-intro'>Born and raised in <span title="Purok 10, Talisay St. Barangay 76-A Bucana" > Davao</span>. I'm into building websites by utilizing CMS platforms or Hand coding. Even tries digital graphics on my personal projects.</p>
-              </div>
-            </div>
-            <div className='second-sec'>
-            <img className='image'  src={img1} style={{width: 200, height: 200, borderRadius: 200/ 2}} />
-              <div className='sub-div'>
-                <div className='details-div'>
-                  <a className="info highlight">Experience:</a>
-                  
-                  <div className='details-div'>
-                    <p className='info-desc'><b className='detail-title'>IPass Processing </b><br/><i>Web Developer </i>• Feb 2022 - Present  </p>
-                    <br/> 
-                  </div>
-                  
-                  <div className='details-div'>
-                    <p className='info-desc'><b className='detail-title'>Carve Business Management Service</b><br/><i>Junior Web Developer I </i>• Jan 2022 - Jan 2021  </p>
-                    <br/> 
-                  </div>
-                </div>
-                <div className='details-div'>
-                  <a className="info highlight">Education:</a>
-                  <div className='details-div'>
-                    <p className='info-desc'><b className='detail-title'>University of Southeastern Philippines</b><br/><i>Bachelor of Science in Information Technology </i>• Sep 2020  </p>
-                    <br/>  
-                    <p className='info-desc'>You can reach me via email @ <a className="link" href="mailto:rainecagape@gmail.com" >rainecagape@gmail.com</a> or mobile no. <a className="link" href="telno:09460101390">09460101390</a>. </p>
-                  </div>
-                </div>  
-                </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-two-info-mob">
-          <div className="info-content-mob" id="info">
-            <div className='first-sec-info-mob'>
-              <img className='image-info-mob' src={img} alt="Logo" style={{width: 200, height: 200, borderRadius: 200/ 2}} />
-              <div className='sub-div-mob'>
-                <p className='title-mob'>Reyna Elaine G. Cagape</p>
-                <p className='info-intro-mob'>Born and raised in <span title="Purok 10, Talisay St. Barangay 76-A Bucana" > Davao</span>. I'm into building websites by utilizing CMS platforms or Hand coding. Even tries digital graphics on my personal projects.</p>
-              </div>
-            </div>
-            <div className='second-sec-mob'>
-              <div className='sub-div-mob'>
-                <div className='details-div-mob'>
-                  <a className="info-mob highlight-mob">Experience:</a>
-                  <div className='details-div-mob'>
-                    <p className='info-desc-mob'><b className='detail-title-mob'>IPass Processing </b><br/><i>Web Developer </i>• Feb 2022 - Present  </p>
-                    <br/> 
-                  </div>
-                  <div className='details-div-mob'>
-                    <p className='info-desc-mob'><b className='detail-title-mob'>Carve Business Management Service</b><br/><i>Junior Web Developer I </i>• Jan 2022 - Jan 2021  </p>
-                    <br/> 
-                  </div>
-                </div>
-                <div className='details-div-mob'>
-                  <a className="info-mob highlight-mob">Education:</a>
-                  <div className='details-div-mob'>
-                    <p className='info-desc-mob'><b className='detail-title-mob'>University of Southeastern Philippines</b><br/><i>Bachelor of Science in Information Technology </i>• Sep 2020  </p>
-                    <br/>  
-                    <p className='info-contact-mob'>You can reach me via email @ <a className="link" href="mailto:rainecagape@gmail.com" >rainecagape@gmail.com</a> or mobile no. <a className="link" href="telno:09460101390">09460101390</a>. </p>
-                  </div>
-                </div>  
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Reactbootstrap.Container fluid style={{ height: "100vh",overflow: "auto"  }} className="transition-container p-3 m-0 position-relative">
+            <Reactbootstrap.Row id="summary" className="d-flex justify-content-center align-items-center">
+                <Reactbootstrap.Col sm={3} md={6} lg={2} className="d-flex justify-content-center align-items-center">
+                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent" src={img} style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
+                </Reactbootstrap.Col>
+                <Reactbootstrap.Col sm={12} md={12} lg={10} className="p-3 " >
+                    <h1 id="name-title" className="highlight fw-medium mob-center-align mb-3" style={{ fontSize: "370%" }}>Reyna Elaine G. Cagape</h1>
+                    <h6 className="fw-light text-white mob-center-align"> Born and raised in Davao. Spent mostly of my time on building website applications by utilizing CMS platforms or through Hand coding.</h6>
+                </Reactbootstrap.Col>
+            </Reactbootstrap.Row>
+            <Reactbootstrap.Row id="education-experience" >
+                <Reactbootstrap.Col sm={12} md={12} lg={2} className="d-flex justify-content-center align-items-center">
+                </Reactbootstrap.Col >
+                <Reactbootstrap.Col sm={12} md={12} lg={10} className="p-0">
+                    <Reactbootstrap.Container  className="p-3">
+                        <h4 className="highlight fw-bold mob-center-align mb-1" >Education:</h4>
+                        <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow"> University of Southeastern Philippines</h5>
+                            <h6 className="fw-normal text-white mob-center-align mr-5"> September 2020</h6>
+                        </Reactbootstrap.Container>
+                        <h6 className="fw-light text-white mob-center-align"> Bachelor of Science in Information Technology </h6>
+                    </Reactbootstrap.Container>
+                    <Reactbootstrap.Container className="p-3">
+                        <h4 className="highlight fw-bold mob-center-align mb-1 " >Experience:</h4>
+                        <Reactbootstrap.Container className="worklist my-3 p-0">
+                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Web Developer </h5>
+                            <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                                <h6 className="fw-light text-white mob-center-align"> IPASS Business Processing Services</h6>
+                                <h6 className="fw-normal text-white mob-center-align mr-5"> February 2022 - September 2024</h6>
+                            </Reactbootstrap.Container>
+                        </Reactbootstrap.Container>
+                        <Reactbootstrap.Container className="worklist my-3 p-0">
+                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Junior Web Developer</h5>
+                            <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                                <h6 className="fw-light text-white mob-center-align"> Carve Business Management Services</h6>
+                                <h6 className="fw-normal text-white mob-center-align mr-5">January 2021 - January 2022</h6>
+                            </Reactbootstrap.Container>
+                        </Reactbootstrap.Container>
+
+                     </Reactbootstrap.Container>
+                </Reactbootstrap.Col>
+            </Reactbootstrap.Row>
+      </Reactbootstrap.Container >
     );
   }
 }

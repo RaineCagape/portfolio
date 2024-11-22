@@ -1,73 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-  @keyframes col-two-animation {
-    0%   { left:-1000px; opacity: 0; }
-    50%   { opacity: 0.50; }
-    100% { left:0px;  opacity: 1;}
-  }
+.highlight {
+    color: #61dafb !important;
+}
+
+#name-intro {
+    animation: 4s glitch 1ms steps(100);
+    font-family: "Pixelify Sans", sans-serif !important;
+    font-size: calc(100% + 15px) !important;
+    text-shadow: 2px 2px #000000, 4px 4px #ffffff;
+}
+
+.text-effect:hover {
+    animation: glitch 1s steps(100) infinite;
+}
+
+#name-title {
+    font-family: "Pixelify Sans", sans-serif !important;
+    text-shadow: 2px 2px #000000, 4px 4px #ffffff;
+}
+
+#name-title:hover {
+    animation: glitch 1s steps(100) infinite;
+    text-shadow: 4px 4px #ffffff;
+}
+
+#intro-background {
+    animation: 95s scale 1s infinite;
+}
 
 
-
-  .col-two-intro{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 80% !important;
-    max-width: 80% !important;
-    position: absolute;
-    margin-left: 20%;
-    height: 100% !important; 
-    max-height: 100% !important; 
-    color: white;
-  }
-  
-.intro-content{ 
-  /* background-image: url("../img/intro-bg.jpg"); */
-  background-color: #687078 !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    min-height: 100%;
-    text-align: left;
-    padding: 0 50px 0;
-    font-size: 70px;
-    font-weight: 400;
-    animation-name: col-two-animation;
-    animation-duration: 1s;
-    margin: 150px 0;
-    padding-top: 50% 10% !important;
-    z-index: 0;
-  }
-  
-  p  {
-    margin: 10px 0;
-    z-index: 13;
-    color: #ffffff;
-  } 
-  
-  .intro-content::after {
-    content: "";
-    background-image: url("../img/intro-bg.jpg");
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    animation: shrink 40s infinite alternate;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-    opacity: 0.9;
-  }
-  
-  @keyframes shrink {
+@keyframes scale {
     0% {
-     background-size: 100% 100%;
+        transform: scale(1);
     }
-    100% { 
-     background-size: 130% 130%;
+
+    50% {
+        transform: scale(1.5);
     }
-  }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes blur {
+    0% {
+        transform: skew(-50deg) translateY(-200%);
+        filter: blur(100);
+    }
+    20% {
+        filter: blur(80);
+    }
+    40% {
+        filter: blur(60);
+    }
+    60% {
+        filter: blur(40);
+    }
+    80% {
+        filter: blur(20);
+    }
+    100% {
+        filter: blur(0);
+    }
+}
+
+
