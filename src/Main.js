@@ -69,9 +69,11 @@ export default function Main() {
 
     const PCMenu = () => (
         <Reactbootstrap.Navbar className="flex-column p-2 ">
-            <Reactbootstrap.Navbar.Brand className="mt-2 mb-5 p-3" href="/">
-                <img src={img} href="/portfolio" alt="Logo" className="img-thumbnail border-0" />
-            </Reactbootstrap.Navbar.Brand>
+            <a href="/portfolio">
+                <Reactbootstrap.Navbar.Brand className="mt-2 mb-5 p-3">
+                    <img src={img} alt="Logo" className="img-thumbnail border-0" />
+                </Reactbootstrap.Navbar.Brand>
+            </a>
             <NavLinks />
         </Reactbootstrap.Navbar>
     )
