@@ -70,7 +70,7 @@ export default function Main() {
     const PCMenu = () => (
         <Reactbootstrap.Navbar className="flex-column p-2 ">
             <Reactbootstrap.Navbar.Brand className="mt-2 mb-5 p-3" href="/">
-                <img src={img} href="/" alt="Logo" className="img-thumbnail border-0" />
+                <img src={img} href="/portfolio" alt="Logo" className="img-thumbnail border-0" />
             </Reactbootstrap.Navbar.Brand>
             <NavLinks />
         </Reactbootstrap.Navbar>
@@ -81,7 +81,7 @@ export default function Main() {
             <Reactbootstrap.Button variant="outline-light" onClick={() => setVisible(!visible)}>{visible}
                 <FontAwesomeIcon className="text-dark" id="bars" size="xl" icon={faBars} />
             </Reactbootstrap.Button>
-            <a className="mx-3 col-9 d-flex justify-content-center" href="/">
+            <a className="mx-3 col-9 d-flex justify-content-center"  href="/portfolio">
                 <img src={img} alt="Logo" className="img-fluid border-0 img-sm" style={{ width: "15%" }} />
             </a>
         </Reactbootstrap.Container>

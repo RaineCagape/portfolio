@@ -22,7 +22,7 @@ class Skills extends Component {
                       <Reactbootstrap.Container id="PHP" className="my-3 p-0">
                           <h6 className="fw-medium text-white mb-1">PHP</h6>
                           <Reactbootstrap.ProgressBar className="fw-medium" label={`80%`} style={{ height: "25px" }}>
-                              <Reactbootstrap.ProgressBar animated className="fw-semibold" now={70} label={`60%`} style={{backgroundColor: "#787cb5" }} />
+                              <Reactbootstrap.ProgressBar animated className="fw-semibold" now={50} label={`50%`} style={{backgroundColor: "#787cb5" }} />
                           </Reactbootstrap.ProgressBar>
                       </Reactbootstrap.Container>
                       <Reactbootstrap.Container id="HTML & CSS" className="my-3 p-0">
@@ -45,6 +45,14 @@ class Skills extends Component {
                               <Reactbootstrap.ProgressBar animated now={10} style={{ backgroundColor: "#ffde57" }} key={1} />
                               <p className="fw-semibold text-dark z-3" style={{ margin: (this.isMobile ? "7px -10px" : "5px -25px")}} >15%</p>
                               <Reactbootstrap.ProgressBar animated now={5} style={{ backgroundColor: "#4584b6" }} key={2}  />
+                          </Reactbootstrap.ProgressBar>
+                      </Reactbootstrap.Container>
+                      <Reactbootstrap.Container id="SQL" className="my-3 p-0">
+                          <h6 className="fw-medium text-white mb-1">SQL</h6>
+                          <Reactbootstrap.ProgressBar style={{ height: "25px" }}>
+                              <Reactbootstrap.ProgressBar animated now={25} style={{ backgroundColor: "#027289" }} key={1} />
+                              <p className="fw-semibold text-white z-3" style={{ margin: (this.isMobile ? "7px -10px" : "5px -25px")}} >50%</p>
+                              <Reactbootstrap.ProgressBar animated now={25} style={{ backgroundColor: "#dd9530" }} key={2}  />
                           </Reactbootstrap.ProgressBar>
                       </Reactbootstrap.Container>
 
