@@ -39,7 +39,7 @@ class Works extends Component {
                               <Reactbootstrap.Container className="p-0 m-0">
                                   <h5 class="card-title fw-bold highlight text-pixel">LPS Live Map </h5>
                                   <p class="card-text text-xxs text-white fw-lighter mb-2">A thesis website project with the acronym Lanzones Pest Scanner System. It displays a pin mark that points the location with the pest infested lanzones tree from the lanzones pest identifier mobile app.
-                                      Sad to say the pest infestation markers no longer appears on the map since our Google Maps API subscription is long due.</p>
+                                      Sad to say, the pest infestation markers no longer appearing on the map since the Google Maps API free subscription has ended 4 years ago.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">HTML & CSS</Reactbootstrap.Badge>
@@ -65,7 +65,7 @@ class Works extends Component {
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
                                   <h5 class="card-title fw-bold highlight text-pixel">IPASS Website v2 </h5>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A revamped informative website project at my previous company with its new design, eliminated redundant and unecessary plugins, unified font systems, optimized images, and improved payment experience than its previous state.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A revamped informative website project of my previous company with its new design, eliminated redundant and unecessary plugins, unified font systems, optimized images, and improved payment experience than its previous state.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
@@ -89,11 +89,12 @@ class Works extends Component {
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
                                   <h5 class="card-title fw-bold highlight text-pixel">Intermed Website</h5>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An informative website at my previous company's digital marketing client. Email configurations on SMTP plugin since the email hosting was on Google Workspace.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An informative website of my previous company's digital marketing client.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Workspace SMTP</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -112,7 +113,7 @@ class Works extends Component {
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
                                   <h5 class="card-title fw-bold highlight text-pixel">WestPointe Heights Website</h5>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">Another informative website at my previous company's digital marketing client.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">Another informative website of my previous company's digital marketing client.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
@@ -158,7 +159,7 @@ class Works extends Component {
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
                                   <h5 class="card-title fw-bold highlight text-pixel">Project D </h5>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">It's a website based on the anime series, Initial D. It displays the interactive racing location with blinking infos. Still work-in-progress project since I'm at hiatus in watching the 5th stage.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">It's a small web application of mine based on the anime series, Initial D. It displays the interactive racing location with blinking infos. Still work-in-progress project since I'm at hiatus in watching the 5th stage.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Next Js</Reactbootstrap.Badge>
