@@ -50,7 +50,7 @@ a {
 }
 
 
-.nav-link a:hover {
+.nav-link:not(:has(.active)):hover {
     animation: glitch 1s steps(100) infinite;
 }
 

@@ -134,8 +134,8 @@ class Works extends Component {
                           </Reactbootstrap.Container>
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
-                                  <h5 class="card-title fw-bold highlight text-pixel">IPASS Online Academy V.2</h5>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">Hand-coded, online academy v.2 project of my previous company.</p>
+                                  <h5 class="card-title fw-bold highlight text-pixel">IPASS Online Academy v2</h5>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A web application v.2 project of my previous company.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">FullStack</Reactbootstrap.Badge>
