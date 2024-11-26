@@ -47,6 +47,7 @@ class Works extends Component {
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">JavaScript</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">BootStrap</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Firebase</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GitHub Pages</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                            </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -94,7 +95,7 @@ class Works extends Component {
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
-                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Workspace SMTP</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Workspace Admin</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -166,6 +167,7 @@ class Works extends Component {
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">React Js</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Tailwind CSS</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Firebase</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GitHub Pages</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
