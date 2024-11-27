@@ -42,7 +42,6 @@ class Works extends Component {
                                       Sad to say, the pest infestation markers no longer appearing on the map since the Google Maps API free subscription has ended 4 years ago.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
-                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">HTML & CSS</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">PHP</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">JavaScript</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">BootStrap</Reactbootstrap.Badge>
@@ -140,7 +139,9 @@ class Works extends Component {
                                   <p class="card-text text-xxs text-white fw-lighter mb-2">A web application v.2 project of my previous company.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
-                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">FullStack</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">BootStrap</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">JavaScript Lib</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">PHP</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GitHub</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
