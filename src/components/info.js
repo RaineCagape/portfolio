@@ -17,8 +17,9 @@ class Info extends Component {
     return  ( 
       <Reactbootstrap.Container fluid style={{ height: "100vh",overflow: "auto"  }} className="transition-container p-3 m-0 position-relative">
             <Reactbootstrap.Row id="summary" className="d-flex justify-content-center align-items-center">
-                <Reactbootstrap.Col sm={3} md={6} lg={2} className="d-flex justify-content-center align-items-center">
-                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent" src={img} style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
+                <Reactbootstrap.Col sm={3} md={6} lg={2} className="d-flex justify-content-center align-items-center position-relative">
+                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent web-img-hover" src={img} style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
+                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent web-link position-absolute" src="https://avatars.githubusercontent.com/u/31531825?v=4" style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
                 </Reactbootstrap.Col>
                 <Reactbootstrap.Col sm={12} md={12} lg={10} className="p-3 " >
                     <h1 id="name-title" className="highlight fw-medium mob-center-align mb-3" style={{ fontSize: "370%" }}>Reyna Elaine G. Cagape</h1>
@@ -31,28 +32,43 @@ class Info extends Component {
                 <Reactbootstrap.Col sm={12} md={12} lg={10} className="p-0">
                     <Reactbootstrap.Container  className="p-3">
                         <h4 className="highlight fw-bold mob-center-align mb-1" >Education:</h4>
-                        <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
-                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow"> University of Southeastern Philippines</h5>
-                            <h6 className="fw-normal text-white mob-center-align mr-5"> September 2020</h6>
+                        <Reactbootstrap.Container className="p-0 d-flex  flex-column flex-sm-row justify-content-between">
+                            <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
+                                <Reactbootstrap.Image src="https://www.usep.edu.ph/wp-content/themes/usep-website/favicon.ico" className='usep-logo my-1 mx-2'/>
+                                <Reactbootstrap.Container className='m-0 p-0 h-auto'>
+                                    <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow"> University of Southeastern Philippines</h5>
+                                    <h6 className="fw-light text-white mob-center-align"> Bachelor of Science in Information Technology | September 2020</h6>
+                                </Reactbootstrap.Container>
+                            </Reactbootstrap.Container>
                         </Reactbootstrap.Container>
-                        <h6 className="fw-light text-white mob-center-align"> Bachelor of Science in Information Technology </h6>
                     </Reactbootstrap.Container>
                     <Reactbootstrap.Container className="p-3">
                         <h4 className="highlight fw-bold mob-center-align mb-1 " >Experience:</h4>
                         <Reactbootstrap.Container className="worklist my-3 p-0">
-                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Web Developer </h5>
-                            <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
-                                <h6 className="fw-light text-white mob-center-align"> IPASS Business Processing Services</h6>
-                                <h6 className="fw-normal text-white mob-center-align mr-5"> February 2022 - September 2024</h6>
+                                <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                                    <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
+                                    <Reactbootstrap.Image src="https://ipassprocessing.com/wp-content/uploads/2024/04/IPASS_Logo_-150x150.png" className='usep-logo my-1 mx-2'/>
+                                    <Reactbootstrap.Container className='m-0 p-0 h-auto'>
+                                    <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">IPASS Business Processing Services</h5>
+                                         <h6 className="fw-light text-white mob-center-align">Web Developer | February 2022 - September 2024</h6>
+                                    </Reactbootstrap.Container>
+                                </Reactbootstrap.Container>
                             </Reactbootstrap.Container>
                         </Reactbootstrap.Container>
+                        
                         <Reactbootstrap.Container className="worklist my-3 p-0">
-                            <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Junior Web Developer</h5>
                             <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
-                                <h6 className="fw-light text-white mob-center-align"> Carve Business Management Services</h6>
-                                <h6 className="fw-normal text-white mob-center-align mr-5">January 2021 - January 2022</h6>
+                                <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                                    <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
+                                    <Reactbootstrap.Image src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.6435-9/75019083_114844163291681_2527802319160999936_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGAYuIjzm2_6OemvvNdBAI7Izb11Bf6a4cjNvXUF_prh7uucw2wsM5hjUSZMnAMhwcNVrr_-KWmiPRGDQa8-uSm&_nc_ohc=GzKP4lUlcewQ7kNvgEol9Mp&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AuIWu0rE_Izv-w6kXuvtAK1&oh=00_AYDkxzMZUCNn_YT646sqZuIkvOTA0xJAVU9kL9Pj5UTNsw&oe=676F93A7" className='usep-logo my-1 mx-2'/>
+                                    <Reactbootstrap.Container className='m-0 p-0 h-auto'>
+                                    <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Carve Business Management Services</h5>
+                                         <h6 className="fw-light text-white mob-center-align">Junior Web Developer | January 2021 - January 2022</h6>
+                                    </Reactbootstrap.Container>
+                                </Reactbootstrap.Container>
                             </Reactbootstrap.Container>
                         </Reactbootstrap.Container>
+                    </Reactbootstrap.Container>
 
                      </Reactbootstrap.Container>
                 </Reactbootstrap.Col>

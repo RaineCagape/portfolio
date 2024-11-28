@@ -87,6 +87,26 @@ a {
     animation-duration: 2s;
 }
 
+
+.matrix-gif{
+    width: 7.5%;
+    height: 7.5%;
+}
+
+.books-gif{
+    width: 8%;
+    height: 8%;
+}
+
+.gif{
+    width: 10%;
+    height: 10%;
+}
+
+.usep-logo{
+    height: 50px;
+}
+
 @keyframes glitch {
     0% {
         text-shadow: 3px 0 0 red, -3px 0 0 #0c33f5, 2px 2px #000000, 4px 4px #ffffff;

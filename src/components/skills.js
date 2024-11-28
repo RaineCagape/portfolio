@@ -18,7 +18,10 @@ class Skills extends Component {
               <Reactbootstrap.Row xs={1} md={2} lg={2} className="p-3">
 
                   <Reactbootstrap.Col id="Languages" className="skill-set mt-2 mb-5 px-4">
-                      <h4 className="highlight fw-bold mob-center-align mb-2 text-pixel" >Languages:</h4>
+                        <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
+                            <Reactbootstrap.Image src="https://emoji.discadia.com/emojis/62051a31-17cf-48a6-b391-3391a0778664.GIF" className="mx-2 matrix-gif"  />
+                            <h4 className="highlight fw-bold text-pixel" >Languages: </h4> 
+                        </Reactbootstrap.Container>
                       <Reactbootstrap.Container id="PHP" className="my-3 p-0">
                           <h6 className="fw-medium text-white mb-1">PHP</h6>
                           <Reactbootstrap.ProgressBar className="fw-medium" label={`80%`} style={{ height: "25px" }}>
@@ -57,7 +60,10 @@ class Skills extends Component {
                       </Reactbootstrap.Container>
 
                       <Reactbootstrap.Col id="Libraries&Frameworks" className="skill-set mt-5 ">
-                          <h4 className="highlight fw-bold mob-center-align mb-2 text-pixel" >Libraries & Frameworks:</h4>
+                            <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
+                                <Reactbootstrap.Image src="https://emoji.discadia.com/emojis/90aed840-17c0-4150-8f9c-431737737521.GIF" className="mx-2 mt-0 books-gif" />
+                                <h4 className="highlight fw-bold text-pixel" >Libraries & Frameworks: </h4> 
+                            </Reactbootstrap.Container>
                           <Reactbootstrap.Container id="JQuery_JQueryUI" className="my-3 p-0">
                               <h6 className="fw-medium text-white mb-1">JQuery & JQueryUI</h6>
                               <Reactbootstrap.ProgressBar style={{ height: "25px" }}>
@@ -103,7 +109,10 @@ class Skills extends Component {
                   </Reactbootstrap.Col>
 
                   <Reactbootstrap.Col id="CMS_Platforms" className="skill-set mt-2 mb-5 px-4">
-                      <h4 className="highlight fw-bold mob-center-align mb-2 text-pixel" >CMS Platforms:</h4>
+                            <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
+                                <Reactbootstrap.Image src="https://emoji.discadia.com/emojis/36ff126c-cc29-4575-9d40-3d2456fad630.gif" className="mx-2 mt-0 books-gif" />
+                                <h4 className="highlight fw-bold text-pixel" >CMS Platforms: </h4> 
+                            </Reactbootstrap.Container>
                       <Reactbootstrap.Container id="WordPress" className="my-3 p-0">
                           <h6 className="fw-medium text-white mb-1">WordPress</h6>
                           <Reactbootstrap.ProgressBar className="fw-medium" label={`70%`} style={{ height: "25px" }}>
@@ -149,7 +158,10 @@ class Skills extends Component {
 
 
                       <Reactbootstrap.Col id="AutomationPlatforms" className="skill-set mt-5 ">
-                          <h4 className="highlight fw-bold mob-center-align mb-2 text-pixel" >Automation Platforms:</h4>
+                        <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
+                            <Reactbootstrap.Image src="https://cdn3.emoji.gg/emojis/48134-bmodancing.gif" className="mx-2 gif"  />
+                            <h4 className="highlight fw-bold text-pixel" >Automation Platforms: </h4> 
+                        </Reactbootstrap.Container>
                           <Reactbootstrap.Container id="ClickFunnels" className="my-3 p-0">
                               <h6 className="fw-medium text-white mb-1">ClickFunnels</h6>
                               <Reactbootstrap.ProgressBar style={{ height: "25px" }}>
