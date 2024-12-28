@@ -1,21 +1,37 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a2b2af30.css",
-    "main.js": "/portfolio/static/js/main.dc8d7c13.js",
-    "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.f6519c41efc19841e1b6.jpg",
-    "static/media/rec.jpg": "/portfolio/static/media/rec.8fa1b6038725be5f0132.jpg",
-    "static/media/westpointeheights.png": "/portfolio/static/media/westpointeheights.df5eaf3d50c1e1c4b365.png",
-    "static/media/ipassonlinerev.png": "/portfolio/static/media/ipassonlinerev.791443d531e1ccc85ebb.png",
-    "static/media/intermed.png": "/portfolio/static/media/intermed.54ab2c5bfce94ec2ee7d.png",
-    "static/media/lpscannr.png": "/portfolio/static/media/lpscannr.d594be86245a23b0b87d.png",
-    "static/media/project-d.png": "/portfolio/static/media/project-d.cc4a18c525a3bbf4de94.png",
-    "static/media/iw.png": "/portfolio/static/media/iw.0e2168550a96e629bdfd.png",
+    "main.css": "/portfolio/static/css/main.8dc65fad.chunk.css",
+    "main.js": "/portfolio/static/js/main.6ed89a32.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6ed89a32.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8940859c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8940859c.js.map",
+    "static/css/2.dbb74888.chunk.css": "/portfolio/static/css/2.dbb74888.chunk.css",
+    "static/js/2.9b9ac340.chunk.js": "/portfolio/static/js/2.9b9ac340.chunk.js",
+    "static/js/2.9b9ac340.chunk.js.map": "/portfolio/static/js/2.9b9ac340.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "main.a2b2af30.css.map": "/portfolio/static/css/main.a2b2af30.css.map",
-    "main.dc8d7c13.js.map": "/portfolio/static/js/main.dc8d7c13.js.map"
+    "precache-manifest.51c21be00f1557d87d88d5387044a349.js": "/portfolio/precache-manifest.51c21be00f1557d87d88d5387044a349.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.dbb74888.chunk.css.map": "/portfolio/static/css/2.dbb74888.chunk.css.map",
+    "static/css/main.8dc65fad.chunk.css.map": "/portfolio/static/css/main.8dc65fad.chunk.css.map",
+    "static/js/2.9b9ac340.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9b9ac340.chunk.js.LICENSE.txt",
+    "static/media/cosmarketing.png": "/portfolio/static/media/cosmarketing.62f3dff7.png",
+    "static/media/fl_logo.gif": "/portfolio/static/media/fl_logo.7bc37a88.gif",
+    "static/media/intermed.png": "/portfolio/static/media/intermed.40bb48c1.png",
+    "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.4439ec02.jpg",
+    "static/media/ipassonlinerev.png": "/portfolio/static/media/ipassonlinerev.cc99b3a1.png",
+    "static/media/iw.png": "/portfolio/static/media/iw.bc80fa15.png",
+    "static/media/lhh.png": "/portfolio/static/media/lhh.94d3d106.png",
+    "static/media/lpscannr.png": "/portfolio/static/media/lpscannr.fec52db3.png",
+    "static/media/p4p.png": "/portfolio/static/media/p4p.24242686.png",
+    "static/media/project-d.png": "/portfolio/static/media/project-d.ba1656f6.png",
+    "static/media/rec.jpg": "/portfolio/static/media/rec.cf560812.jpg",
+    "static/media/westpointeheights.png": "/portfolio/static/media/westpointeheights.6d839721.png"
   },
   "entrypoints": [
-    "static/css/main.a2b2af30.css",
-    "static/js/main.dc8d7c13.js"
+    "static/js/runtime-main.8940859c.js",
+    "static/css/2.dbb74888.chunk.css",
+    "static/js/2.9b9ac340.chunk.js",
+    "static/css/main.8dc65fad.chunk.css",
+    "static/js/main.6ed89a32.chunk.js"
   ]
 }
