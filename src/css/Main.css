@@ -646,3 +646,10 @@ a {
 
 }
 
+/* .web-img-hover:hover > .info-con:has(.web-link) {
+    visibility: visible !important;
+}
+*/
+.web-link {
+    visibility: hidden !important;
+} 

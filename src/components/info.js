@@ -1,7 +1,6 @@
 import '../css/Main.css';
 import img from '../img/rec.jpg';
 import carve_logo from '../img/carve_logo.jpg'; 
-import fl_logo from '../img/fl_logo.gif'; 
 import React, {Component }  from 'react';
 import * as Reactbootstrap from 'react-bootstrap';
 
@@ -17,14 +16,14 @@ class Info extends Component {
 
   render() {
     return  ( 
-      <Reactbootstrap.Container fluid style={{ height: "100vh",overflow: "auto"  }} className="transition-container p-3 m-0 position-relative">
+      <Reactbootstrap.Container fluid style={{ height: "100vh",overflow: "auto"  }} className=" info-con transition-container p-3 m-0 position-relative">
             <Reactbootstrap.Row id="summary" className="d-flex justify-content-center align-items-center">
                 <Reactbootstrap.Col sm={3} md={6} lg={2} className="d-flex justify-content-center align-items-center position-relative">
-                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent web-img-hover" src={img} style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
+                    <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent " src={img} style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
                     <Reactbootstrap.Image className="img-thumbnail border-0 bg-transparent web-link position-absolute" src="https://avatars.githubusercontent.com/u/31531825?v=4" style={{ height: this.isMobile ? "160px" : "100%" }} roundedCircle />
                 </Reactbootstrap.Col>
                 <Reactbootstrap.Col sm={12} md={12} lg={10} className="p-3 " >
-                    <h1 id="name-title" className="highlight fw-medium mob-center-align mb-3" style={{ fontSize: "370%" }}>Reyna Elaine G. Cagape</h1>
+                    <h1 id="name-title" className="highlight fw-medium mob-center-align mb-3 web-img-hover" style={{ fontSize: "370%" }}>Reyna Elaine G. Cagape</h1>
                     <h6 className="fw-light text-white mob-center-align"> Born and raised in Davao. Spent mostly of my time on building website applications by utilizing CMS platforms or through Hand coding.</h6>
                 </Reactbootstrap.Col>
             </Reactbootstrap.Row>
