@@ -57,7 +57,7 @@ export default function Main() {
                     </Reactbootstrap.Nav.Link>
             </Reactbootstrap.Nav>
             <Reactbootstrap.Container id="SocialLinks" className="d-flex flex-row justify-content-center mt-5 mb-3">
-                <a href="https://www.linkedin.com/in/reyna-elaine-cagape-a13803179/" className="linkedin mx-2" target="_blank">
+                <a href="https://www.linkedin.com/in/reyna-elaine-cagape/" className="linkedin mx-2" target="_blank">
                     <FontAwesomeIcon  size="xl" icon={faLinkedin} />
                 </a>
                 <a href="https://github.com/RaineCagape" className="github mx-2" target="_blank">
