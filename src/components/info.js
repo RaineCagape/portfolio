@@ -51,7 +51,7 @@ class Info extends Component {
                                 <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
                                     <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
                                         
-                                    <Reactbootstrap.Image src={fl_logo} className='fl-logo my-1 mx-2'/>
+                                    <Reactbootstrap.Image src="https://cdn3.emoji.gg/emojis/4297-pepe-hacker.gif"className='fl-logo my-1 mx-2'/>
                                     <Reactbootstrap.Container className='m-0 p-0 h-auto'>
                                     <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Freelancer</h5>
                                          <h6 className="fw-light text-white mob-center-align">CMS Web Developer | December 2024 - Ongoing</h6>
