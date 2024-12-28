@@ -1,5 +1,7 @@
 import '../css/Main.css';
 import img from '../img/rec.jpg';
+import carve_logo from '../img/carve_logo.jpg'; 
+import fl_logo from '../img/fl_logo.gif'; 
 import React, {Component }  from 'react';
 import * as Reactbootstrap from 'react-bootstrap';
 
@@ -44,6 +46,20 @@ class Info extends Component {
                     </Reactbootstrap.Container>
                     <Reactbootstrap.Container className="p-3">
                         <h4 className="highlight fw-bold mob-center-align mb-1 " >Experience:</h4>
+
+                        <Reactbootstrap.Container className="worklist my-3 p-0">
+                                <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
+                                    <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
+                                        
+                                    <Reactbootstrap.Image src={fl_logo} className='fl-logo my-1 mx-2'/>
+                                    <Reactbootstrap.Container className='m-0 p-0 h-auto'>
+                                    <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Freelancer</h5>
+                                         <h6 className="fw-light text-white mob-center-align">CMS Web Developer | December 2024 - Ongoing</h6>
+                                    </Reactbootstrap.Container>
+                                </Reactbootstrap.Container>
+                            </Reactbootstrap.Container>
+                        </Reactbootstrap.Container>
+
                         <Reactbootstrap.Container className="worklist my-3 p-0">
                                 <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
                                     <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
@@ -60,7 +76,7 @@ class Info extends Component {
                             <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
                                 <Reactbootstrap.Container className="p-0 d-flex flex-sm-row flex-column justify-content-between">
                                     <Reactbootstrap.Container className="d-flex flex-column flex-sm-row p-0 m-0">
-                                    <Reactbootstrap.Image src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.6435-9/75019083_114844163291681_2527802319160999936_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGAYuIjzm2_6OemvvNdBAI7Izb11Bf6a4cjNvXUF_prh7uucw2wsM5hjUSZMnAMhwcNVrr_-KWmiPRGDQa8-uSm&_nc_ohc=GzKP4lUlcewQ7kNvgEol9Mp&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AuIWu0rE_Izv-w6kXuvtAK1&oh=00_AYDkxzMZUCNn_YT646sqZuIkvOTA0xJAVU9kL9Pj5UTNsw&oe=676F93A7" className='usep-logo my-1 mx-2'/>
+                                    <Reactbootstrap.Image src={carve_logo} className='usep-logo my-1 mx-2'/>
                                     <Reactbootstrap.Container className='m-0 p-0 h-auto'>
                                     <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Carve Business Management Services</h5>
                                          <h6 className="fw-light text-white mob-center-align">Junior Web Developer | January 2021 - January 2022</h6>
