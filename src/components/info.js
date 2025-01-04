@@ -53,7 +53,7 @@ class Info extends Component {
                                     <Reactbootstrap.Image src="https://cdn3.emoji.gg/emojis/4297-pepe-hacker.gif"className='fl-logo my-1 mx-2'/>
                                     <Reactbootstrap.Container className='m-0 p-0 h-auto'>
                                     <h5 className="fw-semibold text-white mob-center-align pixel-plain-shadow">Freelancer</h5>
-                                         <h6 className="fw-light text-white mob-center-align">CMS Web Developer | December 2024 - Ongoing</h6>
+                                         <h6 className="fw-light text-white mob-center-align">Web Developer (CMS/CRM/SaaS)| December 2024 - Ongoing</h6>
                                     </Reactbootstrap.Container>
                                 </Reactbootstrap.Container>
                             </Reactbootstrap.Container>
