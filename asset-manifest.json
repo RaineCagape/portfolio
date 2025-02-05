@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dacc4b34.chunk.css",
-    "main.js": "/portfolio/static/js/main.a49cc8c9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a49cc8c9.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.be3df92c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.be3df92c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8940859c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8940859c.js.map",
     "static/css/2.dbb74888.chunk.css": "/portfolio/static/css/2.dbb74888.chunk.css",
-    "static/js/2.48367800.chunk.js": "/portfolio/static/js/2.48367800.chunk.js",
-    "static/js/2.48367800.chunk.js.map": "/portfolio/static/js/2.48367800.chunk.js.map",
+    "static/js/2.450d20d8.chunk.js": "/portfolio/static/js/2.450d20d8.chunk.js",
+    "static/js/2.450d20d8.chunk.js.map": "/portfolio/static/js/2.450d20d8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c6754a22c085f2773f4e2e9cd7a2a59e.js": "/portfolio/precache-manifest.c6754a22c085f2773f4e2e9cd7a2a59e.js",
+    "precache-manifest.436016039b677e412314598dce00cf64.js": "/portfolio/precache-manifest.436016039b677e412314598dce00cf64.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.dbb74888.chunk.css.map": "/portfolio/static/css/2.dbb74888.chunk.css.map",
     "static/css/main.dacc4b34.chunk.css.map": "/portfolio/static/css/main.dacc4b34.chunk.css.map",
-    "static/js/2.48367800.chunk.js.LICENSE.txt": "/portfolio/static/js/2.48367800.chunk.js.LICENSE.txt",
+    "static/js/2.450d20d8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.450d20d8.chunk.js.LICENSE.txt",
     "static/media/cosmarketing.png": "/portfolio/static/media/cosmarketing.62f3dff7.png",
     "static/media/intermed.png": "/portfolio/static/media/intermed.40bb48c1.png",
     "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.4439ec02.jpg",
     "static/media/ipassonlinerev.png": "/portfolio/static/media/ipassonlinerev.cc99b3a1.png",
+    "static/media/ipg.png": "/portfolio/static/media/ipg.27b14e3a.png",
     "static/media/iw.png": "/portfolio/static/media/iw.bc80fa15.png",
+    "static/media/k2yh.png": "/portfolio/static/media/k2yh.6c5f3312.png",
     "static/media/lhh.png": "/portfolio/static/media/lhh.94d3d106.png",
     "static/media/lpscannr.png": "/portfolio/static/media/lpscannr.fec52db3.png",
     "static/media/p4p.png": "/portfolio/static/media/p4p.24242686.png",
@@ -29,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.8940859c.js",
     "static/css/2.dbb74888.chunk.css",
-    "static/js/2.48367800.chunk.js",
+    "static/js/2.450d20d8.chunk.js",
     "static/css/main.dacc4b34.chunk.css",
-    "static/js/main.a49cc8c9.chunk.js"
+    "static/js/main.be3df92c.chunk.js"
   ]
 }
