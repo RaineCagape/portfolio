@@ -9,6 +9,8 @@ import iw from '../img/iw.png';
 import cos from '../img/cosmarketing.png';
 import p4p from '../img/p4p.png';
 import lhh from '../img/lhh.png';
+import ipg from '../img/ipg.png';
+import k2yh from '../img/k2yh.png';
 import * as Reactbootstrap from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
@@ -41,8 +43,8 @@ class Works extends Component {
                                         <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
                                     </h5>
                                 </a> 
-                                    <p class="card-text text-xxs text-white fw-lighter mb-2">A thesis website project with the acronym Lanzones Pest Scanner System. It displays a pin mark that points the location with the pest infested lanzones tree from the lanzones pest identifier mobile app.
-                                      Sad to say, the pest infestation markers no longer appearing on the map since the Google Maps API free subscription has ended 4 years ago.</p>
+                                    <p class="card-text text-xxs text-white fw-lighter mb-2">A thesis website project with the acronym Lanzones Pest Scanner. It displays a pin mark that points the location with the pest infested lanzones tree from the lanzones pest identifier mobile app.
+                                      Sad to say, the pest infestation markers no longer appearing on the map since the Google Maps API free subscription has ended years ago.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">PHP</Reactbootstrap.Badge>
@@ -71,12 +73,15 @@ class Works extends Component {
                                         <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
                                     </h5>
                                 </a>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A revamped informative website project of my previous company with its new design, eliminated redundant and unecessary plugins, unified font systems, optimized images, and improved payment experience than its previous state.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A revamped informative website of the previous employment with its new design, eliminated redundant and unecessary plugins, unified font systems, optimized images, and improved payment experience than its previous state.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WooCommerce</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">PayPal Gateway</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">UPay Gateway</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">CyberSource Gateway</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -96,18 +101,19 @@ class Works extends Component {
                                     <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} /> 
                                   </h5>
                                 </a>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An informative website of my previous company's digital marketing client.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An informative website of my previous employment's digital marketing client.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">OnePress Theme</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Workspace Admin</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
                       </a>
                   </Reactbootstrap.Col>
-
+    
                    <Reactbootstrap.Col className="my-3 web-card">
                     <a href="https://westpointeheights.com/" target="_blank">
                         <Reactbootstrap.Card className="border border-0 h-100">
@@ -126,6 +132,7 @@ class Works extends Component {
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">OnePress Theme</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -145,7 +152,7 @@ class Works extends Component {
                                         <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
                                     </h5>
                                 </a>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A web application v.2 project of my previous company.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A web application v.2 project of my previous employment.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container fixed="bottom" className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">BootStrap</Reactbootstrap.Badge>
@@ -171,7 +178,7 @@ class Works extends Component {
                                         <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
                                     </h5>
                                 </a>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">It's a small web application of mine based on the anime series, Initial D. It displays the interactive racing location with blinking infos. Still work-in-progress project since I'm at hiatus in watching the 5th stage.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">It's a small web application of mine based on Initial D anime series. It displays the interactive racing location with blinking infos. Still work-in-progress project since I'm at hiatus in watching the 5th stage.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Next Js</Reactbootstrap.Badge>
@@ -194,16 +201,19 @@ class Works extends Component {
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
                                 <a href="https://cosmarketing.team/" target="_blank">
-                                    <h5 class="card-title fw-bold highlight text-pixel">COS Marketing 
+                                    <h5 class="card-title fw-bold highlight text-pixel">COS Marketing Team
                                         <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
                                     </h5>
                                 </a>
-                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An Australian Digital Marketing Agency where I revamped most of their web pages and fixing mits mobile responsiveness compared to its previous static html files.</p>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">An Australian Digital Marketing Agency where I revamped most of their web pages, fixing its mobile responsiveness compared to its previous static html files, and do most of their landing pages.</p>
                               </Reactbootstrap.Container>
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">DNS Management</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Custom Theme</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google My Business Updates Posting</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
@@ -228,6 +238,7 @@ class Works extends Component {
                               <Reactbootstrap.Container className="p-0 mt-2">
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Web Migration</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Custom Theme</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">DNS Management</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
@@ -255,6 +266,58 @@ class Works extends Component {
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google Search Console</Reactbootstrap.Badge>
+                              </Reactbootstrap.Container>
+                          </Reactbootstrap.CardBody>
+                      </Reactbootstrap.Card>
+                      </a>
+                  </Reactbootstrap.Col>
+
+                  <Reactbootstrap.Col className="my-3 web-card">
+                    <a href="https://inspiredpg.com.au/" target="_blank">
+                      <Reactbootstrap.Card className="border border-0 h-100">
+                          <Reactbootstrap.Container className="position-relative p-0">
+                            <Reactbootstrap.Image src={ipg} className="web-img-hover card-img-top" alt="..." />
+                          </Reactbootstrap.Container>
+                          <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
+                              <Reactbootstrap.Container className="p-0 m-0">
+                                <a href="https://inspiredpg.com.au/" target="_blank">
+                                    <h5 class="card-title fw-bold highlight text-pixel">Inspired Property Group
+                                        <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
+                                    </h5>
+                                </a>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A company focuses on Property Management.</p>
+                              </Reactbootstrap.Container>
+                              <Reactbootstrap.Container className="p-0 mt-2">
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Divi Page Builder</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
+                              </Reactbootstrap.Container>
+                          </Reactbootstrap.CardBody>
+                      </Reactbootstrap.Card>
+                      </a>
+                  </Reactbootstrap.Col>
+
+                  <Reactbootstrap.Col className="my-3 web-card">
+                    <a href="https://keystoyourhealth.org/" target="_blank">
+                      <Reactbootstrap.Card className="border border-0 h-100">
+                          <Reactbootstrap.Container className="position-relative p-0">
+                            <Reactbootstrap.Image src={k2yh} className="web-img-hover card-img-top" alt="..." />
+                          </Reactbootstrap.Container>
+                          <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
+                              <Reactbootstrap.Container className="p-0 m-0">
+                                <a href="https://keystoyourhealth.org/" target="_blank">
+                                    <h5 class="card-title fw-bold highlight text-pixel">Keys to your Health
+                                        <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
+                                    </h5>
+                                </a>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A  website project currently on work-in-progress for a client that promotes healthcare products.</p>
+                              </Reactbootstrap.Container>
+                              <Reactbootstrap.Container className="p-0 mt-2">
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Elementor Pro</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">On Maintenance Page</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
                       </Reactbootstrap.Card>
