@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dacc4b34.chunk.css",
-    "main.js": "/portfolio/static/js/main.be3df92c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.be3df92c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f6e4e838.chunk.css",
+    "main.js": "/portfolio/static/js/main.59fc06d2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.59fc06d2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8940859c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8940859c.js.map",
     "static/css/2.dbb74888.chunk.css": "/portfolio/static/css/2.dbb74888.chunk.css",
-    "static/js/2.450d20d8.chunk.js": "/portfolio/static/js/2.450d20d8.chunk.js",
-    "static/js/2.450d20d8.chunk.js.map": "/portfolio/static/js/2.450d20d8.chunk.js.map",
+    "static/js/2.c919c688.chunk.js": "/portfolio/static/js/2.c919c688.chunk.js",
+    "static/js/2.c919c688.chunk.js.map": "/portfolio/static/js/2.c919c688.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.436016039b677e412314598dce00cf64.js": "/portfolio/precache-manifest.436016039b677e412314598dce00cf64.js",
+    "precache-manifest.40aee48921bc04b67d4834c14a1c5eb0.js": "/portfolio/precache-manifest.40aee48921bc04b67d4834c14a1c5eb0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.dbb74888.chunk.css.map": "/portfolio/static/css/2.dbb74888.chunk.css.map",
-    "static/css/main.dacc4b34.chunk.css.map": "/portfolio/static/css/main.dacc4b34.chunk.css.map",
-    "static/js/2.450d20d8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.450d20d8.chunk.js.LICENSE.txt",
+    "static/css/main.f6e4e838.chunk.css.map": "/portfolio/static/css/main.f6e4e838.chunk.css.map",
+    "static/js/2.c919c688.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c919c688.chunk.js.LICENSE.txt",
+    "static/media/cos.png": "/portfolio/static/media/cos.c239adde.png",
     "static/media/cosmarketing.png": "/portfolio/static/media/cosmarketing.62f3dff7.png",
+    "static/media/gd.png": "/portfolio/static/media/gd.71b9be99.png",
     "static/media/intermed.png": "/portfolio/static/media/intermed.40bb48c1.png",
     "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.4439ec02.jpg",
     "static/media/ipassonlinerev.png": "/portfolio/static/media/ipassonlinerev.cc99b3a1.png",
@@ -31,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.8940859c.js",
     "static/css/2.dbb74888.chunk.css",
-    "static/js/2.450d20d8.chunk.js",
-    "static/css/main.dacc4b34.chunk.css",
-    "static/js/main.be3df92c.chunk.js"
+    "static/js/2.c919c688.chunk.js",
+    "static/css/main.f6e4e838.chunk.css",
+    "static/js/main.59fc06d2.chunk.js"
   ]
 }
