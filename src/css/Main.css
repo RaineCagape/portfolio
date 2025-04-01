@@ -98,6 +98,12 @@ a {
     height: 8%;
 }
 
+.server-gif{
+    height: 30px;
+    /* height: 8%; */
+}
+
+
 .gif{
     width: 10%;
     height: 10%;

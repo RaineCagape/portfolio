@@ -1,7 +1,8 @@
 import '../css/Main.css';
 import * as Reactbootstrap from 'react-bootstrap';
 import React, { Component } from 'react';
-
+import bh from '../img/bh.png';
+import gd from '../img/gd.png';
 
 class Skills extends Component {
   constructor() {
@@ -15,7 +16,7 @@ class Skills extends Component {
   render() {
       return (
           <Reactbootstrap.Container fluid style={{ height: "100vh", overflow: "auto" }} className="transition-container p-3 m-0 position-relative">
-              <Reactbootstrap.Row xs={1} md={2} lg={2} className="p-3">
+              <Reactbootstrap.Row xs={1} md={2} lg={2} className="p-2">
 
                   <Reactbootstrap.Col id="Languages" className="skill-set mt-2 mb-5 px-4">
                         <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
@@ -192,9 +193,49 @@ class Skills extends Component {
 
                   </Reactbootstrap.Col>
 
+            </Reactbootstrap.Row>
 
-                  
-              </Reactbootstrap.Row>
+            <Reactbootstrap.Container className="p-1 pb-3">
+                    <Reactbootstrap.Container className='d-flex align-items-center justify-content-center m-0 p-0'>
+                        <Reactbootstrap.Image src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenZxeW80dm52YzNyYmN0YXJ4dm44ZGtmMmRzNGdlMG5tbzF5ZGlsOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9igGG6KxpY0eY0Sr5u/giphy.gif" className="mx-3 server-gif"  style={{height: "35px"}} />
+                        <h4 className="highlight fw-bold text-pixel" >Web Hosting: </h4> 
+                    </Reactbootstrap.Container>
+                    <Reactbootstrap.Container fluid>
+                        <Reactbootstrap.Row xs={12} md={3} lg={12} className=' justify-content-md-center align-items-center'>
+                            <Reactbootstrap.Col xs={12} md={4} lg={1} className='my-5  mx-3' align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>BlueHost</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src={bh} style={{height: "75px"}} alt="BlueHost"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                            <Reactbootstrap.Col  xs={12} md={4} lg={1} className='my-5  mx-3'  align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>Hostinger</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src="https://upload.wikimedia.org/wikipedia/commons/0/03/Hostinger_Logo.png"   style={{height: "55px"}} alt="Hostinger"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                            <Reactbootstrap.Col  xs={12} md={4} lg={1} className='my-5  mx-3'  align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>SiteGround</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsS0NvguexKVwZozbMRyfDUFllYcMDtE0j5zM22wK7Sd_P8sZjwIajw2Rkfx11F_Y7JCQ&usqp=CAU"  style={{height: "90px"}}   alt="SiteGround"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                            <Reactbootstrap.Col  xs={12} md={4} lg={1} className='my-5  mx-3'  align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>CrazyDomains</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src="https://framework.dreamscape.cloud/design_framework/images/crazy/logo/crazy_logo_com.svg" style={{width: "115px"}} alt="CrazyDomains"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                            <Reactbootstrap.Col  xs={12} md={4} lg={1} className='my-5  mx-3'  align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>Namecheap</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src="https://ninjateam.org/wp-content/uploads/2020/07/Namecheap-Logo.png" style={{height: "55px"}} alt="Namecheap"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                            <Reactbootstrap.Col  xs={12} md={4} lg={1} className='my-5 mx-3'  align="center">
+                                <Reactbootstrap.OverlayTrigger overlay={<Reactbootstrap.Tooltip>GoDaddy</Reactbootstrap.Tooltip>}>
+                                    <Reactbootstrap.Image src={gd} style={{height: "55px"}} alt="GoDaddy"/>
+                                </Reactbootstrap.OverlayTrigger>
+                            </Reactbootstrap.Col>
+                        </Reactbootstrap.Row>
+                    </Reactbootstrap.Container>
+            </Reactbootstrap.Container>
+
           </Reactbootstrap.Container>
     );
   }

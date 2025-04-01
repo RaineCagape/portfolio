@@ -1,19 +1,21 @@
 import '../css/Main.css';
 import React, {Component}  from 'react';
+import * as Reactbootstrap from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+
 import lps from '../img/lpscannr.png'; 
 import im from '../img/intermed.png'; 
 import pd from '../img/project-d.png'; 
 import wh from '../img/westpointeheights.png';
 import ior from '../img/ipassonlinerev.png';
 import iw from '../img/iw.png';
-import cos from '../img/cosmarketing.png';
+import cmt from '../img/cosmarketing.png';
 import p4p from '../img/p4p.png';
 import lhh from '../img/lhh.png';
 import ipg from '../img/ipg.png';
 import k2yh from '../img/k2yh.png';
-import * as Reactbootstrap from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import cos from '../img/cos.png';
 
 
 class Works extends Component {
@@ -24,18 +26,16 @@ class Works extends Component {
         };
     }
 
-  
     render() {
       return  (
           <Reactbootstrap.Container fluid style={{ height: "100vh", overflow: "auto" }} className="transition-container p-3 m-0 position-relative">
               <Reactbootstrap.Row xs={1} md={2} lg={2} className="p-3 ">
-                    
                   <Reactbootstrap.Col className="my-3 web-card">
                     <a href="https://rainecagape.github.io/LIPScanner_Live_Map_Pest_Infestation_Web/web/web/" target="_blank">
                       <Reactbootstrap.Card className="border border-0 h-100">
                           <Reactbootstrap.Container className="position-relative p-0">
-                                <Reactbootstrap.Image src={lps} className="web-img-hover card-img-top" alt="..." />
-                          </Reactbootstrap.Container>
+                            <Reactbootstrap.Image src={lps} className="web-img-hover card-img-top" alt="..." />
+                          </Reactbootstrap.Container> 
                           <Reactbootstrap.CardBody className="bg-dark web-info p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap ">
                               <Reactbootstrap.Container className="p-0 m-0">
                                 <a href="https://rainecagape.github.io/LIPScanner_Live_Map_Pest_Infestation_Web/web/web/" target="_blank">
@@ -196,7 +196,7 @@ class Works extends Component {
                     <a href="https://cosmarketing.team/" target="_blank">
                       <Reactbootstrap.Card className="border border-0 h-100">
                           <Reactbootstrap.Container className="position-relative p-0">
-                            <Reactbootstrap.Image src={cos} className="web-img-hover card-img-top" alt="..." />
+                            <Reactbootstrap.Image src={cmt} className="web-img-hover card-img-top" alt="..." />
                           </Reactbootstrap.Container>
                           <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
                               <Reactbootstrap.Container className="p-0 m-0">
@@ -213,6 +213,7 @@ class Works extends Component {
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">DNS Management</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Custom Theme</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Technical SEO (Google Tools + Yoast SEO)</Reactbootstrap.Badge>
                                   <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Google My Business Updates Posting</Reactbootstrap.Badge>
                               </Reactbootstrap.Container>
                           </Reactbootstrap.CardBody>
@@ -324,7 +325,31 @@ class Works extends Component {
                       </a>
                   </Reactbootstrap.Col>
 
-                  
+                  <Reactbootstrap.Col className="my-3 web-card">
+                    <a href="https://craigosullivan.com/" target="_blank">
+                      <Reactbootstrap.Card className="border border-0 h-100">
+                          <Reactbootstrap.Container className="position-relative p-0">
+                            <Reactbootstrap.Image src={cos} className="web-img-hover card-img-top" alt="..." />
+                          </Reactbootstrap.Container>
+                          <Reactbootstrap.CardBody className="bg-dark p-3 border border-top-0 rounded-bottom d-flex align-content-between flex-wrap">
+                              <Reactbootstrap.Container className="p-0 m-0">
+                                <a href="https://craigosullivan.com/" target="_blank">
+                                    <h5 class="card-title fw-bold highlight text-pixel">Craig O'Sullivan Site
+                                        <FontAwesomeIcon className="text-white text-xxs mx-3" icon={faExternalLinkAlt} />
+                                    </h5>
+                                </a>
+                                  <p class="card-text text-xxs text-white fw-lighter mb-2">A website for a keynote speaker client.</p>
+                              </Reactbootstrap.Container>
+                              <Reactbootstrap.Container className="p-0 mt-2">
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Web Layout</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">WordPress</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">Spectra</Reactbootstrap.Badge>
+                                  <Reactbootstrap.Badge className="bg-transparent border border-1 rounded-5 m-1 pixel-font">GoHighLevel</Reactbootstrap.Badge>
+                              </Reactbootstrap.Container>
+                          </Reactbootstrap.CardBody>
+                      </Reactbootstrap.Card>
+                      </a>
+                  </Reactbootstrap.Col>
 
               </Reactbootstrap.Row>
           </Reactbootstrap.Container>
