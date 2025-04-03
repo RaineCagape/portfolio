@@ -52,10 +52,10 @@ export default function Main() {
                     <FontAwesomeIcon className="arrow" icon={faCaretRight} />
                     <MenuLink to="/works" label="Works" className="m-2" />
                 </Reactbootstrap.Nav.Link>
-                    <Reactbootstrap.Nav.Link  href="https://rainingrandoms.xyz/" target="_blank" className="fs-4 fw-lighter d-flex flex-row align-middle justify-content-center"  >
+                  {/*   <Reactbootstrap.Nav.Link  href="https://rainingrandoms.xyz/" target="_blank" className="fs-4 fw-lighter d-flex flex-row align-middle justify-content-center"  >
                         <FontAwesomeIcon className="arrow m-2" icon={faCaretRight} /> Blog
-                    </Reactbootstrap.Nav.Link>
-            </Reactbootstrap.Nav>
+                    </Reactbootstrap.Nav.Link>*/}
+            </Reactbootstrap.Nav> 
             <Reactbootstrap.Container id="SocialLinks" className="d-flex flex-row justify-content-center mt-5 mb-3">
                 <a href="https://www.linkedin.com/in/reyna-elaine-cagape/" className="linkedin mx-2" target="_blank">
                     <FontAwesomeIcon  size="xl" icon={faLinkedin} />
